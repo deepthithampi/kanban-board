@@ -43,7 +43,8 @@ class AuthService {
     // TODO: remove the token from localStorage
     localStorage.removeItem('token')
     // TODO: redirect to the login page
-    // window.location.assign('/login') for seeding live needed to comment this and used useNavigate in the navnar component
+    window.location.assign('/login') 
+    //for seeding live needed to comment this and used useNavigate in the navnar component
   }
 }
 
